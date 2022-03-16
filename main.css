@@ -1,0 +1,103 @@
+body {
+    background: #171E28;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: large;
+  }
+  a {
+      text-decoration: none;
+      color: #FCF7F8
+    }
+  a:visited {
+      color: #FCF7F8;
+    }
+  .title {
+    padding: 1em;
+    font-size: xx-large;
+  }
+  .copyright{
+    color: grey;
+    text-align: center;
+    position: relative;
+    bottom: 3px;
+    font-size: x-small;
+  }
+  
+  .footerPlaceHolder {
+    position: absolute;
+    bottom: 0;
+    width: 99vw;
+  }
+  .bl {
+    color: #8FBBEA
+  }
+  .bl-b {
+    background: #617E9E;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .intron  {
+    background-color: #617E9E;
+    color: #FCF7F8;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  
+  p {
+  text-align: center;
+  }
+  
+  b {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  }
+  .name, .link {
+  padding: 0;
+  margin: 0 0.5em;
+  list-style: none;
+  }
+  
+  .name {
+  margin-left: auto;
+  text-align: left;
+  }
+  
+  .link {
+  margin-right: auto;
+  text-align: right;
+  }
+  
+  .name > li, .link > li {
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1em;
+  }
+  #icon {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  *{transition:all 0.3s ease-in-out;}
+
+  .container{
+    clear:both;
+    overflow:auto;
+  }
+  
+  nav{float:left;
+    padding-left: 15cm;
+  }
+  
+  .logo img{float:left;}
+  
+  ul li{
+    display: inline-block; padding:10px;
+    font-size:20px; font-family:'Roboto Mono', monospace;
+  }
+  
+  ul li:hover{
+    color:white;
+    
+  }
